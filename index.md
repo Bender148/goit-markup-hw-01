@@ -1,37 +1,103 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+</head>
+<body>
+    <!--Верхняя линия-->
+    <header>
+        <!--Logo-->
+        <h1>WebStudio</h1>
+        <!--Menu navigation section-->
+        <nav>
+            <ul>
+                <li><a href="/">Студия</a></li>
+                <li><a href="/">Портфолио</a></li>
+                <li><a href="/">Контакты</a></li>
+            </ul>
+        </nav>
+        <!--Contacts section-->
+        <section>
+            <ul>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </section>
+    </header>
 
-You can use the [editor on GitHub](https://github.com/Bender148/goit-markup-hw-01/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <!--Шапка-->
+    <main>
+        <section>
+        <!--Title section-->
+            <!--Title-->
+            <h2>Эффективные решения для вашего бизнеса</h2>
+            <!--Button-->
+            <button type="button">Заказать услугу</button>
+        </section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <!--Особенности-->
+        <section>
+            <!--First specials-->
+            <h3>Внимание к деталям</h3>
+            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <!--Second spesials-->
+            <h3>Пунктуальность</h3>
+            <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            <!--Third spesials-->
+            <h3>Планирование</h3>
+            <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            <!--Fourth specials-->
+            <h3>Современные технологии</h3>
+            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+        </section>
 
-### Markdown
+        <!--Чем мы занимаемся-->
+        <section>
+            <!--Our work section-->
+            <h2>Чем мы занимаемся</h2>
+            <img src="images/box1.jpg" alt="Специалист делает верстку кода в VSCode" width="370" height="294">
+            <img src="images/box2.jpg" alt="Разработка мобильных приложенией" width="370" height="294">
+            <img src="images/box3.jpg" alt="Широкая палитра цветов" width="370" height="294">   
+        </section>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Bender148/goit-markup-hw-01/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        <!--Наша команда-->
+        <section>
+            <h2>Наша Команда</h2>
+            <!--Product Designer-->
+                <figure>
+                    <img src="images/img.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                    <figcaption><h3>Игорь Демьяненко</h3><p>Product Designer</p></figcaption>
+                </figure>  
+                <!--Frontend Developer-->
+                <figure>
+                    <img src="images/img2.jpg" alt="Ольга Репина" width="270" height="260">
+                    <figcaption><h3>Ольга Репина</h3><p>Frontend Developer</p></figcaption>
+                </figure>
+                <!--Marketing-->
+                <figure>
+                    <img src="images/img3.jpg" alt="Николай Тарасов" width="270" height="260">
+                    <figcaption><h3>Николай Тарасов</h3><p>Marketing</p></figcaption>
+                </figure>
+                <!--Ui Designer-->
+                <figure>
+                    <img src="images/img4.jpg" alt="Михаил Ермаков" width="270" height="260">
+                    <figcaption><h3>Михаил Ермаков</h3><p>Ui Designer</p></figcaption>
+                </figure>  
+        </section>
+    </main>
+    <!--Подвал-->
+    <footer>
+        <!--Logo-->
+        <h1>WebStudio</h1>
+        <!--Adress section-->
+        <h4>г. Киев, пр-т Леси Украинки, 26</h4>
+        <!--Email section-->
+        <p>info@example.com</p>
+        <!--Telephone section-->
+        <p>+38 099 111 11 11</p>
+    </footer>
+</body>
+</html>
