@@ -27,7 +27,6 @@
             </ul>
         </section>
     </header>
-
     <!--Шапка-->
     <main>
         <section>
@@ -37,7 +36,6 @@
             <!--Button-->
             <button type="button">Заказать услугу</button>
         </section>
-
         <!--Особенности-->
         <section>
             <!--First specials-->
@@ -53,7 +51,6 @@
             <h3>Современные технологии</h3>
             <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </section>
-
         <!--Чем мы занимаемся-->
         <section>
             <!--Our work section-->
@@ -62,7 +59,6 @@
             <img src="images/box2.jpg" alt="Разработка мобильных приложенией" width="370" height="294">
             <img src="images/box3.jpg" alt="Широкая палитра цветов" width="370" height="294">   
         </section>
-
         <!--Наша команда-->
         <section>
             <h2>Наша Команда</h2>
